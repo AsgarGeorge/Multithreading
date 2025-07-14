@@ -1,6 +1,5 @@
 package threadSynchronisation;
 
-import java.sql.SQLOutput;
 
 public class WaitAndNotifyDemo {
 
