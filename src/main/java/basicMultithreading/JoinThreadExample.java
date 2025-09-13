@@ -19,8 +19,9 @@ public class JoinThreadExample {
             }
         });
 
-        one.start();
         two.start();
+        one.start();
+
         one.join();
         two.join();
         System.out.println("The execution of thread completed");
